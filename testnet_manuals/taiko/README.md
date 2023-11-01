@@ -1,5 +1,5 @@
-## Guide for Taiko proposer testnet
-# Setting your your server
+# Guide for Taiko proposer testnet
+## Setting your your server
 ```
 apt install git
 ```
@@ -21,7 +21,7 @@ apt-cache policy docker-ce
 ```
 sudo apt install docker-ce
 ```
-# Node setup
+## Node setup
 ```
 git clone https://github.com/taikoxyz/simple-taiko-node.git
 ```
@@ -44,13 +44,13 @@ Go to [Alchemy](https://alchemy.com/?r=baa923610b5f9fe0) and [register](https://
 ```
 docker compose up -d
 ```
-# Check the node with: 
+## Check the node with: 
 http://SERVER_IP:3001/d/L2ExecutionEngine/l2-execution-engine-overview?orgId=1&refresh=10s (Replace SERVER_IP with your server IP)
-# Wait until our node is fully synced
+## Wait until our node is fully synced
 http://dojonode.xyz/#/dashboard, click on the satellite dish and paste the server's IP in the first line instead of localhost.
 ![image](https://github.com/Nokogirisrv/nokogiri_guides/assets/125523696/b46f2f0d-5162-4835-af81-15a780e7db81)
 
-# If you run proposer:
+## If you run proposer:
 Use [faucets](https://taiko.xyz/docs/guides/receive-tokens) to get SeopliaETH
 1) Open .env file 
 ```
