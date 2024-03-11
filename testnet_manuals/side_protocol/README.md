@@ -46,9 +46,6 @@ make install
 ```bash
 # Initialize Node
 sided init <moniker> --chain-id=side-testnet-2
-
-# Example:
-sided init Synergy_Nodes --chain-id=side-testnet-2
 ```
 
 ## Download Genesis file
